@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "903077054197",
+    "firebase_url": "https://yowin97-66704.firebaseio.com",
+    "project_id": "yowin97-66704",
+    "storage_bucket": "yowin97-66704.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903077054197:android:be0314e5eec7051c52a7bc",
+        "android_client_info": {
+          "package_name": "com.example.yoshula"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903077054197-m7it7gd7v48nr9onnfou1u6t0uodteb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yoshula",
+            "certificate_hash": "2bd7db7de0ffb6278e1b6f8075ca9ac0313ea8e7"
+          }
+        },
+        {
+          "client_id": "903077054197-nsokeu2o98rjgnk0jda06d3ivjv4o2jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChXwe1Wbo7NmXD0cdh7rEpecaSvpskf6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903077054197-nsokeu2o98rjgnk0jda06d3ivjv4o2jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

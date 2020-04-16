@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTwo"
+        android:layout_width="360dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+
+        android:text=" 現在請你忘掉第一個選擇的詞,在依第二個選擇的詞選擇一個有相關性!!"
+
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="下一個"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.46" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="120dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <RadioGroup
+        android:id="@+id/rgLeftTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4">
+
+        <RadioButton
+            android:id="@+id/rgLeftSteep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="很陡"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#f00"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rgLeftSharp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="很尖"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#f00"/>
+
+        <RadioButton
+            android:id="@+id/rgLeftWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="很白"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#f00"/>
+
+        <RadioButton
+            android:id="@+id/rgLeftSquare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="很方"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#f00"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgRightTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline4">
+
+        <RadioButton
+            android:id="@+id/rgRightDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="很暗"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#f00"/>
+
+        <RadioButton
+            android:id="@+id/rgRightMuch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="很多"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#f00"/>
+
+        <RadioButton
+            android:id="@+id/rgRightSweet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="很甜"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#f00"/>
+
+        <RadioButton
+            android:id="@+id/rgRightNarrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="很窄"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#f00"/>
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

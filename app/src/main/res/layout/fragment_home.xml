@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_orange_dark">
+
+
+  <com.google.android.material.tabs.TabLayout
+      android:id="@+id/tab_layout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:tabSelectedTextColor="@color/design_default_color_on_secondary"
+      app:tabTextColor="@color/cardview_shadow_start_color"
+      android:background="@android:color/holo_green_light">
+
+      <com.google.android.material.tabs.TabItem
+      android:id="@+id/angel_page"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="天使" />
+
+      <com.google.android.material.tabs.TabItem
+          android:id="@+id/evil_page"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="惡魔"
+          />
+
+
+  </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/index_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="首頁 PAGE"-->
+<!--        android:textSize="30dp"-->
+<!--        android:layout_centerInParent="true"/>-->
+</RelativeLayout>

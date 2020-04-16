@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Yoshula</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="psy_test"> 歡迎來到本次的心理測驗 準備好了就開始囉!從下列選項中,選出一個您喜歡的記在心裡</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
